@@ -1,3 +1,4 @@
 {"launch_path":"/index.html","installs_allowed_from":["*"],"version":"0.0.1","name":"HelloCordova","pkgName":"io.cordova.hellocordova","icons":{"128":"/img/icon.png"},"systemXHR":"Allow", "permissions": {
-    "systemXHR": {}
+    "systemXHR": {},
+	"geolocation": {}
 }}
