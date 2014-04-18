@@ -127,10 +127,14 @@ function _etr(){
 		obj.busqueda.linea = linea;
 
 		app.startSpinning();
-		$.get(url,{}, function(data){
+        $.ajax({url:url,success:function(data){
+            app.stopSpinning();
+			obj.parseCalles(data);
+        },data:{},dataType:'json'});
+		/*$.get(url,{}, function(data){
 			app.stopSpinning();
 			obj.parseCalles(data);			
-		},'json');
+		},'json');*/
 	}
 	this.parseCalles = function(calles) {
         console.log("found "+calles.length);
