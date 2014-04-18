@@ -1,0 +1,11 @@
+{
+    "launch_path":"/index.html",
+    "installs_allowed_from":["*"],
+    "version":"0.0.1",
+    "name":"Cuando llega",
+    "pkgName":"com.urucas.cuandollega",
+    "icons": {
+        "128": "/img/icon.png"
+    },
+    "systemXHR":"Allow"
+}
