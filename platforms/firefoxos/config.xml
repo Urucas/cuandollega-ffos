@@ -2,18 +2,6 @@
 <widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
-    <feature name="Device">
-        <param name="firefoxos-package" value="Device" />
-    </feature>
-    <feature name="Geolocation">
-        <param name="firefoxos-package" value="Geolocation" />
-    </feature>
-    <feature name="Network">
-        <param name="firefoxos-package" value="Network" />
-    </feature>
-    <feature name="Notification">
-        <param name="firefoxos-package" value="Notification" />
-    </feature>
     <name>HelloCordova</name>
     <description>
     A sample Apache Cordova application that responds to the deviceready event.
